@@ -1,0 +1,9 @@
+Deploy:
+
+1. heroku login
+2. docker ps
+3. heroku container:login
+4. heroku git:remote -a recomendacao-livros
+5. heroku container:push web
+6. heroku container:release web 
+https://recomendacao-livros.herokuapp.com
