@@ -1,0 +1,20 @@
+DADO,TIPO,DESCRIÇÃO
+id_livro,int,Identificador único do livro
+titulo_livro,string,Título do livro
+autor,string,Autor do livro
+sinopse,string,Sinopse do livro
+avaliação,float,Avaliação média do livro
+total de avaliações,int,Total de avaliações recebidas por um livro
+gênero,list,Lista de gêneros literários atribuídos ao livro
+data de publicação,date,Data de publicação do livro
+leram,int,Total de usuários que registraram terem lido determinado livro
+lendo,int,Total de usuários que registraram estarem lendo determinado livro
+querem ler,int,Total de usuários que registraram que querem ler determinado livro
+relendo,int,Total de usuários que registraram estarem relendo determinado livro
+abandonos,int,Total de usuários que registraram terem abandonado a leitura de determinado livro
+total de resenhas,int,Total de resenhas encontradas para determinado livro
+id resenha,int,Identificador único da resenha
+titulo resenha,string,Título de uma resenha
+user_id,int,Identificador do usuário
+avaliação individual,float,Nota atribuída por um usuário a um livro
+resenha,string,Texto da resenha
