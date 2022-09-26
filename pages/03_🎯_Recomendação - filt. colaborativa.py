@@ -196,7 +196,7 @@ def main():
                 pass
 
     if input_text_1 and input_text_2 and input_text_3:
-        url = 'https://github.com/brendasalenave/rec-producao/blob/main/df_GT100.parquet?raw=true'
+        url = 'https://github.com/brendasalenave/recomendacao-livros/blob/main/df_GT100.parquet?raw=true'
         df_GT100 = pd.read_parquet(url, engine='auto')
 
         user_id = df_GT100.user_id.max()+1 # cria novo usuario

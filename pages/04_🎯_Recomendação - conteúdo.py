@@ -187,7 +187,7 @@ def main():
         # df_GT100 = pd.read_csv('df_GT100.csv')
         # file_dir = os.path.dirname(__file__)
         # csv_path = os.path.join(file_dir,"..","common","df_GT100.parquet")
-        url = 'https://github.com/brendasalenave/rec-producao/blob/main/df_GT100.parquet?raw=true'
+        url = 'https://github.com/brendasalenave/recomendacao-livros/blob/main/df_GT100.parquet?raw=true'
         df_GT100 = pd.read_parquet(url, engine='auto')
 
         df_GT100["generos_str"] = [' '.join(literal_eval(l)) for l in df_GT100["generos"]]
